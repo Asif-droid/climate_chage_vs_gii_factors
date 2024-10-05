@@ -25,11 +25,11 @@ pip install numpy matplotlib pandas sklearn tpot tensorflow
 We used GDP per capita, Poverty index, Education participation rate from World Bank and Temperature Rise data from Global Data Lab and Nasa.
 
 ### Data Collection 
-- [GDP per capita]().
-- [Poverty GINI index]().
-- [Education Participation]().
-- [Temp-Global datalab]().
-- [Temp-Nasa]().
+- [GDP per capita](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=1W).
+- [Poverty GINI index](https://data.worldbank.org/indicator/SI.POV.GINI).
+- [Education Participation](https://data.worldbank.org/indicator/SE.PRM.CUAT.MA.ZS?end=2023&start=2023&view=bar).
+- [Temp-Global datalab](https://globaldatalab.org/geos/download/surfacetempyear/?levels=1&interpolation=0&extrapolation=0).
+- [Temp-Nasa](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt).
 
 
 ### Data Preprocessing
@@ -45,7 +45,7 @@ We used GDP per capita, Poverty index, Education participation rate from World B
 - Detailed analysis of the relationship between gender inequality and climate change.
 
 ### Conclusion
-- Found Random Forest model more accurately Education Participation Rate.
+- Found Random Forest model more accurately Education Participation Rate than other models.
 
 ## Usage
 
