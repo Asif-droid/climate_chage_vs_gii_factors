@@ -61,31 +61,43 @@ The performance of each model is evaluated using various metrics such as Mean Ab
 
 ## Result Analysis
 - Linear Regression
+  ```
   Mean Absolute Error (MAE): 19.757518321451506
   Mean Squared Error (MSE): 597.4101825860815
   R-squared (R²): 0.35628188123160587
+  ```
 - Random Forest
+ ```
   Mean Absolute Error (MAE): 3.658859986234793
   Mean Squared Error (MSE): 29.661569266175515
   R-squared (R²): 0.9680392297883378
+```
 - svm
+ ```
   SVR - Mean Squared Error: 16.644423043908322
   SVR - R-squared score: 0.49796212165968234
-
+```
 - knn
+  ```
   KNN - Mean Squared Error: 14.991569141541337
   KNN - R-squared score: 0.5837427833354114
+  ```
 
 - DT
+  ```
   Decision Tree - Mean Squared Error: 14.497125053469984
   Decision Tree - R-squared score: 0.6190226501641137
-
+  ```
 - Ensamble learning
+  ```
   Ensemble (Gradient Boosting) - Mean Squared Error: 12.825334169542966
   Ensemble (Gradient Boosting) - R-squared score: 0.6932644604536435
+  ```
 - AUTO ML
+  ```
   AutoML (TPOT) - Mean Squared Error: 11.01497331125136
   AutoML (TPOT) - R-squared score: 0.7441024580689239
+  ```
 
 ### Conclusion
 - Found Random Forest model more accurately Education Participation Rate than other models.
