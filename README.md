@@ -2,7 +2,7 @@
 
 This Jupyter Notebook, `gender_inequality_climate.ipynb`, explores the relationship between gender inequality and climate change. The analysis leverages various data visualization and data manipulation libraries in Python to provide insights into how these two critical issues intersect.
 
-## Prerequisites
+## Prerequisites  
 
 Ensure you have the following Python libraries installed:
 
